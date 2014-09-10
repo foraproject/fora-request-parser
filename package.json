@@ -1,7 +1,7 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "fora-request-parser",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Fora's Web Request Parser serializes HTTP Form Data into entities based on Fora's type-definition format.",
     "repository": {
         "type": "git",
@@ -12,8 +12,7 @@
         "validator": "*",
         "sanitizer": "*",
         "co": "*",
-        "co-body": "*",
-        "co-multipart": "*"
+        "fora-request": "*"
     },
     "devDependencies": {},
     "engines": { "node": ">= 0.11.9" },
